@@ -16,7 +16,7 @@ do
         then
             echo " -> Already converted"
         else
-            heif-convert -q90 "$filename" "$filename.jpg" > /dev/null
+            heif-convert -q100 "$filename" "$filename.jpg" > /dev/null
             echo " -> Converted"
         fi
     done
